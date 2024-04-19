@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Site</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/random_styles.css">
+</head>
+<body>
+    <header class="d-flex justify-content-center align-items-center flex-column">
+        <img src="img/logo.png" alt="Logo" class="mb-3">
+        <p id="counterText" class="mb-3 counter-text">Total number of dasurvs: 0</p>
+        <button id="pressButton" class="btn btn-primary" onclick="buttonClicked()">Press to dasurv</button>
+
+        <audio id="audio1" src="mp3/audio1.mp3" hidden></audio>
+        <audio id="audio2" src="mp3/audio2.mp3" hidden></audio>
+        <audio id="audio3" src="mp3/audio3.mp3" hidden></audio>
+    </header>
+
+    <div id="randomImageContainer"></div>
+
+    <script src="js/random_script.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
